@@ -1,0 +1,80 @@
+body {
+    background-image: url(../multimedia/PROJECT-Jhin-Splash-Art-HD-4k-Wallpaper-Background-Official-Art-Artwork-League-of-Legends-lol.jpg);
+    background-size: 100%;
+}
+
+#navbar {
+    border-radius: 10px;
+    text-align: center;
+    background-color: grey;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+
+
+#barra_lateral {
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+}
+
+#contenido_barra_lateral {
+    flex: 5;
+    pad: 50px;
+
+}
+
+
+#container {}
+
+#container_columnas {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contenido {
+    text-align: center;
+    background-color: ;
+    flex: 20;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.footer {}
+
+/* ========================================================================== */
+/* BOTONES */
+/* ========================================================================== */
+
+#tablas {
+    background-image: url(../multimedia/HD-Wallpapers-1080p-Widescreen.jpg);
+    background-size: 100%;
+
+}
+
+#listas_organizadas {
+    background-image: url(../multimedia/solo_top_wallpaper_by_welterz-d67wvaa.png);
+    background-size: 100%;
+}
+
+#perfil {
+    background-image: url(../multimedia/images.jpg);
+    background-size: 100%;
+}
+
+/* ========================================================================== */
+/* ZONA CENTRO */
+/* ========================================================================== */
+
+#centro {
+    display: flex;
+}
+
+#contenido_centro {
+    text-align: center;
+    flex: 20;
+    background-color: grey;
+    margin: 20px;
+    border-radius: 10px;
+}
