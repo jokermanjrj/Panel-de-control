@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Barra Lateral</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="../css/estilo.css" />
+    <script src="main.js"></script>
+</head>
+
+<body>
+    <div id="container">
+        <video autoplay="autoplay" loop="loop" id="video_background" preload="none" volume="50">
+            <source src="../multimedia/videoplayback (1).mp4" type="video/mp4" />
+        </video>
+        <div class="navbar">
+            <h1>BIENVENIDOS AL PANEL DE CONTROL LOQUETES!</h1>
+        </div>
+        <div class="container">
+            <div id="barra_izquierda">
+                <h1>Barra Lateral</h1>
+                <audio id="demo" src="../multimedia/videoplayback (1).m4a" autoplay="autoplay"></audio>
+                <h1><button class="boton" onclick="document.getElementById('demo').play()">Reproducir el Audio</button></h1>
+                <h1><button class="boton" onclick="document.getElementById('demo').pause()">Pausar el Audio</button></h1>
+                <h1><button class="boton" onclick="document.getElementById('demo').volume+=0.1">Aumentar el Volumen</button></h1>
+                <h1><button class="boton" onclick="document.getElementById('demo').volume-=0.1">Disminuir el Volumen</button></h1>
+                <!-- BOTON PARA REINICIAR MUSICA======================================================= -->
+                <!--<h1><button class="boton" onclick="document.getElementById('demo').reset()">Reiniciar Audio</button></h1>-->
+            </div>
+            <div id="contenido">
+                <div class="link">
+
+                    <h1><a href="../html/listas_organizadas.html"> Listas organizadas</a></h1>
+                    <h1><a href="../html/tablas.html">Tablas</a></h1>
+                </div>
+            </div>
+            <!-- =========================================================== -->
+            <!-- BARRA DERECHA -->
+            <!-- =========================================================== -->
+            <!--  <div id="barra_derecha">
+                <h1>hola</h1>
+            </div> -->
+        </div>
+    </div>
+</body>
+
+</html>

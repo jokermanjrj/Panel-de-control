@@ -1,0 +1,106 @@
+body {
+}
+
+#container {
+}
+/* ========================================================================== */
+/* RESPONSIVE */
+/* ========================================================================== */
+@media screen {
+}
+/* ========================================================================== */
+/* Video de fondo */
+/* ========================================================================== */
+
+#video_background {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -1000;
+  overflow: hidden;
+}
+
+#video_pattern {
+  background: #fff;
+  position: fixed;
+  opacity: 0.5;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+/* ========================================================================== */
+/* NAVBAR */
+/* ========================================================================== */
+.navbar {
+  opacity: 0.8;
+  font-family: fantasy;
+  text-align: center;
+  color: white;
+}
+
+/* ========================================================================== */
+/* CONTENIDO */
+/* ========================================================================== */
+
+.container {
+  display: flex;
+}
+
+#barra_izquierda {
+  text-align: center;
+  opacity: 0.8;
+  border-radius: 20px;
+  color: white;
+  flex-direction: column;
+  background-color: grey;
+  border: 0px solid;
+}
+
+#contenido {
+  color: black;
+  border-radius: 20px;
+  border: 5px solid;
+  background-size: 100%;
+  background-image: url(../multimedia/PROJECT-Jhin-Splash-Art-HD-4k-Wallpaper-Background-Official-Art-Artwork-League-of-Legends-lol.jpg);
+  font-family: fantasy;
+  opacity: 0.8;
+  margin-left: 20px;
+  margin-right: 20px;
+  flex: 5;
+}
+
+#barra_derecha {
+  flex-direction: column;
+  background-color: blue;
+}
+
+/* ========================================================================== */
+/* BOTONES */
+/* ========================================================================== */
+.boton {
+  min-width: 100%;
+  min-height: 100%;
+  text-decoration: none;
+  padding: 10px;
+  font-weight: 600;
+  font-size: 25px;
+  color: white;
+  background-color: rgb(59, 57, 57);
+  border-radius: 20px;
+  border: 0px solid black;
+}
+
+.link {
+  padding-left: 20px;
+  color: white;
+  opacity: 1;
+  min-width: 100%;
+  min-height: 100%;
+}
